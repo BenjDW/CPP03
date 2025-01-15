@@ -6,7 +6,7 @@
 /*   By: bde-wits <bde-wits@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/14 21:29:03 by bde-wits          #+#    #+#             */
-/*   Updated: 2025/01/14 22:18:00 by bde-wits         ###   ########.fr       */
+/*   Updated: 2025/01/14 23:14:44 by bde-wits         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ class FragTrap : public ClapTrap
 	public:
 		FragTrap();
 		FragTrap(std::string nam);
-		FragTrap(const FragTrap &cpy);
+		FragTrap(const ClapTrap &cpy);
 		~FragTrap();
 		FragTrap &operator=(const FragTrap cpy);
 		void	highFivesGuys(void);

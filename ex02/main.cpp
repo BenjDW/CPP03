@@ -6,7 +6,7 @@
 /*   By: bde-wits <bde-wits@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/13 10:29:52 by bde-wits          #+#    #+#             */
-/*   Updated: 2025/01/14 22:11:53 by bde-wits         ###   ########.fr       */
+/*   Updated: 2025/01/14 23:15:58 by bde-wits         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,14 +29,14 @@
 //     clap.beRepaired(10);
 
 //     std::cout << "\n----- Creating ScavTrap -----" << std::endl;
-//     ScavTrap scav("Scavy");
+//     ScavTrap scav("asoutai");
 //     scav.attack("a raider");
 //     scav.takeDamage(20);
 //     scav.beRepaired(15);
 //     scav.guardGate();
 
 //     std::cout << "\n----- Creating FragTrap -----" << std::endl;
-//     FragTrap frag("Fraggy");
+//     FragTrap frag("Ansar_Tek");
 //     frag.attack("a bandit");
 //     frag.takeDamage(30);
 //     frag.beRepaired(25);

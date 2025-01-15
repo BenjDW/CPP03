@@ -6,7 +6,7 @@
 /*   By: bde-wits <bde-wits@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/14 21:28:57 by bde-wits          #+#    #+#             */
-/*   Updated: 2025/01/14 22:17:54 by bde-wits         ###   ########.fr       */
+/*   Updated: 2025/01/14 23:14:13 by bde-wits         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,7 +53,7 @@ FragTrap::FragTrap()
 
 
 
-FragTrap::FragTrap(const FragTrap &cpy)
+FragTrap::FragTrap(const ClapTrap &cpy)
 {
 	std::cout << "copy constructor called" << std::endl;
 	*this = cpy;
