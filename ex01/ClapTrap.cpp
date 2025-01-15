@@ -6,7 +6,7 @@
 /*   By: bde-wits <bde-wits@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/14 01:09:11 by bde-wits          #+#    #+#             */
-/*   Updated: 2025/01/14 10:11:38 by bde-wits         ###   ########.fr       */
+/*   Updated: 2025/01/14 22:01:17 by bde-wits         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -68,6 +68,31 @@ ClapTrap::ClapTrap(std::string namae)
 	this->Energy_point = 10;
 	this->Hit_point = 10;
 	this->Attack_damage = 0;
+}
+
+ClapTrap&	ClapTrap::operator=(const ClapTrap cpy)
+{
+	std::cout << "Copy assignment operator called" << std::endl;
+	this->name = cpy.name;
+	this->Hit_point = cpy.Hit_point;
+	this->Attack_damage = cpy.Attack_damage;
+	this->Energy_point = cpy.Energy_point;
+	return (*this);
+}
+
+ClapTrap::ClapTrap()
+{
+	std::cout << "Default constructor called" << std::endl;
+	this->name = "Ansar_Tek";
+	this->Energy_point = 10;
+	this->Hit_point = 10;
+	this->Attack_damage = 0;
+}
+
+ClapTrap::ClapTrap(const ClapTrap &cpy)
+{
+	std::cout << "copy constructor called" << std::endl;
+	*this = cpy;
 }
 
 ClapTrap::~ClapTrap()

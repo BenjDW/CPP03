@@ -6,7 +6,7 @@
 /*   By: bde-wits <bde-wits@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/14 09:59:19 by bde-wits          #+#    #+#             */
-/*   Updated: 2025/01/14 10:13:11 by bde-wits         ###   ########.fr       */
+/*   Updated: 2025/01/14 22:12:02 by bde-wits         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,8 +15,11 @@
 class ScavTrap : public ClapTrap 
 {
 	public:
+		ScavTrap();
 		ScavTrap(std::string nam);
+		ScavTrap(const ClapTrap &cpy);
 		~ScavTrap();
+		ScavTrap &operator=(const ScavTrap cpy);
 		void	guardGate();
 	private:
 };
